@@ -1,0 +1,59 @@
+<!-- form action sends the information filled in the forms back to the backend system. -->
+<!-- <div>..</div> makes division of the line of segments -->
+<!-- label makes the form fill values even if you click on the label / text  -->
+<!-- intro to different input types and their allowances -->
+<!-- submit and reset button formats.. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+</head>
+
+<body>
+    <h2>VIT Complain Cell</h2><br>
+    <a href="/Heading_para.html">Headings website</a><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Pdbpnt4S_dDMFKJt3ON76O1AMwQG7gxAsQ&usqp=CAU" alt="no alt">
+    <form action="backend.nodejs">
+        <label for="dt">Date of request :</label>
+        <div>
+           <input type="date" name="mydate" id="dt">
+        </div>
+        <label for="Name">Name: </label>
+        <div>
+             <input type="text" name="myname" id="Name">
+        </div>
+        <label for="roll">Reg No:</label>
+        <div>
+             <input type="text" name="myroll" id="roll">
+        </div>
+        <label for="email">Email :</label>
+        <div>
+             <input type="email" name="myemail" id="email">
+        </div>
+        <label for="Elg">Are you Eligible : </label>
+        <div>
+            <input type="checkbox" name="Eligible" id="Elg" checked>
+        </div>
+        <label for="Gender">Gender :</label>
+        <div>
+            Male <input type="radio" name="Male" id="Gender"> Female <input type="radio" name="Male" id="Gender">
+        </div>
+        <label for="about">Complain Description :</label>
+        <div>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset now">
+        </div>
+        <!-- <div>
+            <input type="reset" value="Reset now">
+        </div> -->
+    </form>
+</body>
+
+</html>
