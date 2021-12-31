@@ -1,0 +1,5 @@
+/* syntax of css to style a paragraph */
+p{
+    color: cyan;
+    background-color: chocolate;
+}
