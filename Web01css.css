@@ -1,0 +1,12 @@
+.Redcolor{
+    color: red;
+}
+.Greenbg{
+    background-color: rgb(159, 255, 159);
+}
+#id{
+    color: purple;
+}
+strong{
+    border: 1px solid red;
+}
