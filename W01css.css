@@ -1,6 +1,10 @@
+/* a pixle is 1/96th of an inch */
 p{
     font-family:'Island Moments','Licorice','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:x-large;          
+    font-size:121px;          
+    font-style:oblique;
+    /* this helps in describing the space between the line when with the multiple of parent font(em) we can do the same with other dimensions too*/
+    line-height: 12em;
 }
 div
 {
