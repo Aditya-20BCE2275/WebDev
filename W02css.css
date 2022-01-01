@@ -1,0 +1,15 @@
+#p1
+{
+    /* color by name */
+    color: red; 
+}
+#p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color:rgb(227, 49, 233);/*color by hexvalue*/
+}
+/* hexcolors are not preffered usually */
+#p3{
+    color:white;
+    background-color: orange;
+}
