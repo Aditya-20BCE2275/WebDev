@@ -1,0 +1,26 @@
+.container{
+    border:5px solid red;
+    background-color: rgb(206, 245, 206);
+    padding:34px 34px;
+    width:auto;
+    margin:auto;
+}
+.btn{
+    color: black;
+    background-color:rgb(243, 167, 167);
+    padding: 2px;
+    margin: 5px;
+    border: 2px black inset;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.btn:active{
+    border:none;
+    background-color: aliceblue;
+    color: black;
+}
+.btn:hover{
+    border-color: green;
+    background-color: rgb(117, 228, 117);
+}
