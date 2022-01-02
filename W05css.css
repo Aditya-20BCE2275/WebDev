@@ -1,0 +1,34 @@
+body{
+    box-sizing: border-box;
+    background-color: beige;
+}
+#h1{
+    background-color: aqua;
+    border: 12px red ;
+    border-radius: 5px;
+    border-style:ridge;
+    color:rgb(255, 106, 0);
+}
+.container{
+    float:right;
+    border: purple 2px solid;
+    padding: 12px;
+    margin: auto;
+    text-align: center;
+    background-color: bisque;
+}
+ /* #Fruits{
+    float:left;
+    width:50%;
+    clear: both;
+} */
+p{
+    border:2px inset purple;
+    text-align: justify;
+    padding: 12px;
+    font-family:'Licorice', 'cursive';
+    font-size: x-large;
+    font-style: italic;
+    word-spacing: 2px;
+    font-weight: bold;
+}
