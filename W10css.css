@@ -1,0 +1,27 @@
+.box{
+    width: 200px;
+    height:150px;
+    border:2px solid black;
+}
+#box1{
+    /* position: relative; */
+    background-color: antiquewhite;
+}
+#box2{
+    position: relative;
+    top: 50px;
+    z-index:1;
+    /* visiblity hides the box but shows the empty position of the box */
+    /* display none hides the box as well as its position in the website and the elements following the none dipslay overlap its position */
+    /* visibility:hidden; */
+    /* display: none; */
+    background-color: red;
+}
+#box3{
+    z-index:-1;
+    position: relative;
+    background-color: aqua;
+}
+#box4{
+    background-color:bisque;
+}
