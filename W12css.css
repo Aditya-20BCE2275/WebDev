@@ -1,0 +1,31 @@
+html{
+    font-size: 20px;
+}
+.con{
+    width:300px;
+    margin:0;
+    border: 2px solid red;
+    font-size: 10px;
+    /* vh sets the height acoording to the viewport or the website we can see or available in size */
+    height: 50vh;
+}
+h1{
+    text-align: center;
+}
+/* #h1{
+    em takes the multiplication factor set by code
+
+    Font size in em takes the direct multiple of the body font
+    font-size: 3em;
+    The padding taken here is multiple of font soze in that element and not that of the body
+    padding: 1em;
+
+} */
+/* #h3{
+    Now manages the sizes according to the browser set sizes or the sizes prevailing in the whole html code
+
+    Font size in em takes the direct multiple of the html font
+    font-size: 3rem;
+    Padding is set to Multiple of Html also as rem = root em
+    padding: 3rem;
+} */
