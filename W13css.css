@@ -1,0 +1,14 @@
+.box{
+    font-size: 22px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: none;
+}
+/* media queries act like an if condition with the following Syntax */
+@media (max-width:500px) and (min-width:200px)
+{
+    #box-1{
+        display: block;
+    }
+}
